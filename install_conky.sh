@@ -4,7 +4,7 @@ apt install conky -y
 #
 if [[ -d "$HOME/.conky/" ]]
 then
-    echo "$(tput setaf 11)Conky files exists on your /home and making backup as conky_backup.$(tput sgr0)" && mv -ui  $HOME/.conky conky_backup
+    echo "$(tput setaf 11)Conky files exists in your /home dir and making backup as conky_backup.$(tput sgr0)" && mv -ui  $HOME/.conky conky_backup
 
 fi
 #

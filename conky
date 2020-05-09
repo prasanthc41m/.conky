@@ -69,10 +69,9 @@ gap_x 0
 gap_y 0
 minimum_size 60 680
 TEXT
-${exec curl -O https://raw.githubusercontent.com/prasanthc41m/logos/master/eh_logo.png}
-${voffset 20}${goto 0} ${image $HOME/eh_logo.png -s 60x60}
-#${voffset 20}${goto 0}${image https://miro.medium.com/fit/c/128/128/2*6Nz_fY8fRW1qYLTemwl8Rw.jpeg -s 60x60}
-${voffset 0}${goto 70}${color2}${font sans:size=8}Hacking Simplified ${font sans:regular:pixelsize=15}${alignr}${color grey}e${color green}Hackify
+${exec curl -O https://raw.githubusercontent.com/prasanthc41m/.conky/master/c41m.png}
+${voffset 20}${goto 0} ${image $HOME/c41m.png -s 60x60}
+${voffset 0}${goto 70}${color2}${font sans:size=8}Be calm not insane${font sans:regular:pixelsize=15}${alignr}${color grey}Prasanth${color green} c41m
 ${alignc}${offset -30}${color2}${font sans:pixelsize=48}${time %H:%M:%S}${font}
 ${alignc}${color  white}${font sans:pixelsize=11}${time %A %d %B %Y}${font}
 ${template5 SYSTEM\ INFORMATION}

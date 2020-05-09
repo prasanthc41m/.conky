@@ -1,5 +1,5 @@
 #!/bin/bash
-#Conky for eHackify
+#Conky from c41m
 apt install conky -y
 #
 if [[ -d "$HOME/.conky/" ]]

@@ -1,6 +1,6 @@
 #!/bin/bash
 #Conky from c41m
-apt install conky -y
+sudo apt install conky -y
 #
 if [[ -d "$HOME/.conky/" ]]
 then
@@ -9,7 +9,7 @@ then
 fi
 #
 git clone https://github.com/prasanthc41m/.conky.git
-chmod -R +x ~/.conky/*
+sudo chmod -R +x ~/.conky/*
 #
 crontab <<EOF
 @reboot /root/.conky/conky-startup.sh

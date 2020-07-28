@@ -68,5 +68,5 @@ ${font sans:size=10}${color green}THN Feed:
 ${font sans:size=8}${color white}${execi 300 $HOME/.conky/RSS/rss.sh http://feeds.feedburner.com/TheHackersNews}
 ${font sans:size=10}${color green}Exploit-db Feed:
 ${font sans:size=8}${color orange}${execi 300 $HOME/.conky/RSS/rss.sh https://www.exploit-db.com/rss.xml}
-${font sans:size=10}${color green}Mathrubumi Feed:
-${font size=8}${color orange}${execi 300 $HOME/.conky/RSS/rss.sh http://feeds.feedburner.com/mathrubhumi}
+#${font sans:size=10}${color green}Mathrubumi Feed:
+#${font size=8}${color orange}${execi 300 $HOME/.conky/RSS/rss.sh http://feeds.feedburner.com/mathrubhumi}
